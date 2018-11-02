@@ -7,7 +7,7 @@ When editing travel videos using [Shotcut](https://shotcut.org/), this tool allo
 
 # How to use it ?
 
-- Go to this [link](https://https://mi-g.github.io/travelpath-webvfx).
+- Go to this [link](https://mi-g.github.io/travelpath-webvfx).
 - Follow the 3 steps:
   * pick a map image from your disk
   * define a path
