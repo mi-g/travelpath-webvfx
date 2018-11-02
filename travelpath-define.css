@@ -1,0 +1,63 @@
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	background-color: #aaa;
+}
+
+#wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#header {
+	background-color: #000;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	margin: .5em;
+	border-radius: 1em;
+	flex: 0 0;
+	font-size: 1.3em;
+}
+
+#description {
+	background-color: #fff;
+	color: #000;
+	padding: 1em;
+	margin: .5em;
+	border-radius: 1em;
+	flex: 0 0;
+}
+
+#playground {
+	background-color: #eee;
+	flex: 1 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+	margin: .5em;
+	border-radius: 1em;
+}
+
+.step {
+	display: none;
+}
+
+canvas {
+	height: 100%;
+	width: 100%;
+	background-color: #ccc;
+}
+
+textarea {
+	height: 100%;
+	width: 100%;
+}

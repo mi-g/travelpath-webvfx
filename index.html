@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Path recorder</title>
+	<meta charset="utf-8">
+	<link href="travelpath-define.css" rel="stylesheet" type="text/css">
+	<script src="travelpath-define.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="step step1">Step 1: Pick a local image</div>
+			<div class="step step2">Step 2: Define path</div>
+			<div class="step step3">Step 3: Copy Overlay HTML</div>
+		</div>
+		<div id="description">
+			<div class="step step1">This image represents the "map" on which to draw the path</div>
+			<div class="step step2">Click on the starting location. While keep the button pressed, move the mouse to define 
+				the path. Release the button when at the ending location.</div>
+			<div class="step step3">Copy the code below as a Shotcut Overlay HTML</div>
+		</div>
+		<div id="playground">
+			<div class="step step1">
+				<form>
+					<input type="file" id="load" />
+				</form>						
+			</div>
+			<canvas class="step step2">
+			</canvas>
+			<textarea class="step step3"></textarea>
+		</div>
+	</div>
+</body>
+</html>
