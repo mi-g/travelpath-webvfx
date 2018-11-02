@@ -48,7 +48,7 @@ function Template(text) {
 	//<![CDATA[
 	
 	TravelPath({
-		stokeStyle: "#ff0000", // path color
+		strokeStyle: "#ff0000", // path color
 		lineWidth: 10,         // path line width in pixels
 		lineDash: [1,15]       // dash pattern, set to null for no dashed line
 	});
